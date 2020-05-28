@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let name = "Nguyễn Tùng Lâm";
+        let lop = "C4EJS83";
+        console.log(name);
+        console.log(lop);
+    //Bài 1
+    // let car = {
+    //         type:"Fiat", 
+    //         model:"500", 
+    //         color:"white"
+    //     };
+    // console.log('Hãng xe là:' + car.type);
+    //Bài 2
+    // let person = {
+    //         firstName:"John", 
+    //         lastName:"Doe", 
+    //         age:50, 
+    //         eyeColor:"blue"
+    //     };
+    // console.log(person.firstName + ' is ' + person.age + ' years old!');
+    //Bài 3
+    // var person = {
+    //         firstName: "John",
+    //         lastName : "Doe",
+    //         id     : 5566,
+    //         fullName : function() {
+    //             return this.firstName + " " + this.lastName;
+    //         }
+    //     };
+    // console.log('Tên đầy đủ là ' + person.fullName());
+    //Bài 4
+    // let cauthu = {
+    //     name: 'Christiano Ronaldo',
+    //     age: 35,
+    //     country: 'Potugal'
+    // }
+    // console.log('Thông tin cầu thủ: ' + Object.values(cauthu));
+    // let a = prompt('Bạn có muốn thêm thông tin gì không?(Y/N)');
+    // a.toUpperCase();
+    // if(a == 'Y'){
+    //     let newInfor = prompt('Thông tin bạn muốn thêm là:');
+    //     let giatri = prompt('Giá trị của thông tin mới là:');
+    //     cauthu.newInfor = giatri;
+    //     console.log('Thông tin cầu thủ:'+ Object.values(cauthu));
+    // }else{
+    //     console.log('Good bye');
+    // }
+    //Bài 5
+    // let cauthu = {
+    //     name: 'Christiano Ronaldo',
+    //     age: 35,
+    //     country: 'Potugal'
+    // }
+    // console.log('Thông tin cầu thủ: ' + Object.values(cauthu));
+    // cauthu.name = 'Lionel Messi';
+    // cauthu.age = 32;
+    // cauthu.country = 'Argentina';
+    // console.log('Thông tin update cầu thủ:' + Object.values(cauthu));
+    //Bài 6
+    // let cauthu = {
+    //     name: 'Christiano Ronaldo',
+    //     age: 35,
+    //     country: 'Potugal'
+    // }
+    // console.log('Thông tin cầu thủ: ' + Object.values(cauthu));
+    // let question = prompt('Bạn có muốn xóa thông tin nào không?(Y/N)');
+    // if(question == 'Y'){
+    //     let a = prompt('Bạn muốn xóa thông tin nào?(name,age,country)');
+    //     delete cauthu[a];
+    //     console.log('Thông tin cầu thủ sau khi xóa: ' + Object.values(cauthu));
+    // }else{
+    //     console.log('Good Bye');
+    // }
+    //Bài 7
+    // let inventory = {
+    //         gold : 500,
+    //         pouch : ['flint', 'twine', 'gemstone'],
+    //         backpack : ['xylophone', 'dagger', 'bedroll', 'bread loaf']
+    //     }
+    // function inObj(){
+    //     console.log(Object.values(inventory));
+    // }
+    // inObj();
+    // console.log('Thêm phần tử pouch:');
+    // inventory.pocket = ["seashell", "strange berry", "lint"];
+    // inObj();
+    // console.log('Xóa phần tử trong mảng:');
+    // inventory.backpack.splice(1,1);
+    // inObj();
+    // console.log('Tăng giá trị cho gold:');
+    // inventory.gold += 50;
+    // inObj();
+    // console.log('Xóa mảng pouch:');
+    // delete inventory.pouch;
+    // inObj();
+    // Bài 8
+    // function myFunction(a, b) {
+    //         return a * b;
+    //     }
+    // console.log('Tích 1: ' + myFunction(1,4));
+    // console.log('Tích 2: ' + myFunction(1,3));
+    //Bài 9
+    // let a = Number(prompt('Nhập số thứ 1: '));
+    // let b = Number(prompt('Nhập số thứ 2: '));
+    // function tong(a, b) {
+    //     return a + b;
+    // }
+    // console.log('Tổng hai số là: ' + tong(a,b));
+    //Bài 10
+    // function remove_dollar_sign (doanchu){
+    //         let a = prompt("Nhập câu bạn muốn xóa dấu dollar:")
+   
+    //         return a.replace(/\$/gi, doanchu )
+    //     }
+        
+    //     console.log(remove_dollar_sign(''));
+    //Bài 12
+    // (function () {
+    //     let ok;
+    //         console.log ("Hello! I called myself");
+    //     })();
+    //     ok();
+    //Bài 13
+    // function myFunction(a, b) {
+    //         return a * b;
+    //     }
+    //     let x = myFunction(4, 3) * 2;
+    //     console.log(x);    
+    //bài 14
+    // hello = function() {
+    //        return ("Hello World!");
+    //     }
+    //     console.log('Bùm ' + hello());
+    // hello = () => {
+    //     return "Hello World!";
+    //     }
+    //     console.log('Bùm ' + hello())
+    //     // 2 chương trình trên đều có tác dụng khai báo hàm 
+    //Bài 15
+    // let hello;
+
+    //     hello = (val) => "Hello " + val;
+
+    // console.log(hello("Universe!"));
+    // //Chương trình in ra Hello cộng với phần tử  val thay đổi đằng sau
+    //Bài 17
+    // const x = (x, y) => { return x * y };
+    //     console.log(x(5, 5));
+    //     console.log(x(8,9));
+        //Khai báo 1 hàm tên x với 2 parameter và trả về kết quả là tích của 2 parameter
+    //Bài 18
+    // const x = (x, y) => { return x * y };
+    //     console.log('Ket qua 5 * 5 = ' + x(5, 5));
+    //     //Chương trình giống bài 17 nhưng thể hiện tác dụng của hàm return vào nhiều trường hợp in ra khác nhau
+    //Bài 19
+    // function findMax() {
+    //         let i;
+    //         let max = 0;
+    //         for(i = 0; i < arguments.length; i++) {
+    //             if (arguments[i] > max) {
+    //             max = arguments[i];
+    //             }
+    //         }
+    //         return max;
+    //     } 
+    //     console.log(findMax(4, 5, 6));
+    //     //Chương trình tìm ra số lớn nhất,với việc khai báo tên hàm findMax cùng với arguments là các giá trị parameter
+    //Bài 20
+    // function sumAll(){
+    //     let tong = 0;
+    //     for(let i = 0; i < arguments.length; i++){
+    //         tong += arguments[i];
+    //     }
+    //     return tong;
+    // }
+    // console.log('Tổng các số là: ' + sumAll(1,123,500,115,44,88));
+    //Bài 21
+    // let myObject = {
+    //         firstName:"John",
+    //         lastName: "Doe",
+    //         fullName: function() {
+    //             return this.firstName + " " + this.lastName;
+    //         }
+    //     }
+    //     console.log(myObject.fullName());
+    //     //Gán fullName lầ 1 hàm trả về kết quả kết hợp 2 giá trị firstName và lastName trong Object
+    //Bài 22
+    // let person = {
+    //         fullName: function() {
+    //             return this.firstName + " " + this.lastName;
+    //         }
+    //     }
+    //     let person1 = {
+    //         firstName:"John",
+    //         lastName: "Doe"
+    //     }
+    //     let person2 = {
+    //         firstName:"Mary",
+    //         lastName: "Doe"
+    //     }
+    //     let x = person.fullName.call(person1); 
+    //     console.log(x); 
+    //     //Chương trình khai báo hàm fullName và hàm call() có thể gọi ra được các giá trị từ các object khác.
+    //     //VD: Câu lệnh person.fullName.call(person1) dùng hàm fullName với giá trị được gọi ra từ object person1
+    //Bài 23
+    //  let person = {
+    //         fullName: function(city, country) {
+    //             return this.firstName + " " + this.lastName + "," + city + "," + country;
+    //         }
+    //     }
+    //     let person1 = {
+    //         firstName:"John",
+    //         lastName: "Doe"
+    //     }
+    //     let person2 = {
+    //         firstName:"Mary",
+    //         lastName: "Doe"
+    //     }
+    //     let x = person.fullName.call(person1, "Oslo", "Norway"); 
+    //     console.log(x); 
+    //     //Hàm call với argument,gọi ra giá trị của object đồng thời thêm argument của hàm fullName
+    //Bài 24
+    // let counter = 0;
+
+    //     function add() {
+    //         counter += 1;
+    //     }
+
+    //     add();
+    //     add();
+    //     add();
+
+    //     console.log("The counter is: " + counter);
+    //     //Hàm add() tăng giá trị thêm 1 cho biến counter
+    //Bài 25
+    // function add() {
+    //         var counter = 0;
+    //         function plus() {counter += 1;}
+    //         plus();  
+    //         return counter; 
+    //     }
+    //     console.log(add());
+    //     //Khai báo hàm add(),trong đó có hàm plus() làm tăng giá trị thêm 1 cho counter và trả về giá trị của counter
+    //Bài 26
+    // 1. Chương trình 1
+
+        // function conThoAnCo() {
+        // setTimeout(function() {
+        //     console.log('con thỏ ăn cỏ, uống nước');
+        // }, 3000);
+        // }
+
+        // // con thỏ chui vô hang
+        // function hotel() {
+        // console.log('chui vô hotel');
+        // }
+
+        // conThoAnCo();
+        // hotel();
+        // //chương trình dùng setTimeout cho hàm conThoAnCo 3000ms nên sau 3s mới in ra màn hình,còn hàm hotel() in ra màn hình ngay lập tức
+    // 2.Chương trình 2
+        // function conThoAnCo(callback007) {
+        //     setTimeout(function() {
+        //         console.log('con thỏ ăn cỏ, uống nước');
+        //         callback007(); // đây là lúc điệp viên báo cáo cho sếp !
+        //     }, 3000);
+        // }
+
+        // function hotel() {
+        //     console.log('chui vô hotel');
+        // }
+
+        // var callback = function() {
+        //     hotel();
+        // }
+        // conThoAnCo(callback);
+        ////Cương trình có callback007() trong hàm conThoAnCo để báo khi thực hiện câu lệnh in con thỏ ăn cỏ,uống nưước xong sẽ thực hiện các câu lệnh ở dưới.
+    // 3. Chương trình 3
+        
+        // function conThoAnCo(callback007) {
+        //     setTimeout(function() {
+        //         console.log('con thỏ ăn cỏ, uống nước');
+        //         callback007(); // đây là lúc điệp viên báo cáo cho sếp !
+        //     }, 3000);
+        // }
+
+        // function hotel() {
+        //     console.log('chui vô hotel');
+        // }
+
+        // conThoAnCo(function() {
+        //     hotel();
+        // });
+        //chương trình 3 giống chương trình 2 chỉ là viết gọn hơn đoạn lệnh thực hiện sau khi in con thỏ ăn cỏ,uống nước
+
+</script>
